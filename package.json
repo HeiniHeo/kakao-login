@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "210521_class",
   "version": "1.0.0",
   "description": "",
   "main": "node server.js",
+=======
+  "name": "0506.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+>>>>>>> 204891223f4756e2a69fca8bd6b8a0baeb2367ed
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -10,11 +17,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "nunjucks": "^3.2.3",
     "qs": "^6.10.1"
+=======
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+>>>>>>> 204891223f4756e2a69fca8bd6b8a0baeb2367ed
   }
 }

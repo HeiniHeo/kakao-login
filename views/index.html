@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% if logininfo == undefined %}
     <!--로그인 처리 X-->
     <a href="/login">로그인</a>
@@ -13,4 +14,11 @@
 <script type="text/javascript">
     alert('{{msg}}');
 </script>
+=======
+{% if isLogin %}
+    {{userid}}님 환영합니다.<br> <a href="/user/logout">LOGOUT</a>
+{% else %}
+    <a href="/user/join">JOIN IN</a><br>
+    <a href="/user/login">SIGN IN</a>
+>>>>>>> 204891223f4756e2a69fca8bd6b8a0baeb2367ed
 {% endif %}
